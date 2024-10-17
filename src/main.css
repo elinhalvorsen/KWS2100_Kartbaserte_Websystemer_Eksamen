@@ -1,0 +1,59 @@
+* {
+  margin: unset;
+}
+#root {
+  display: grid;
+  grid-template-rows: auto 1fr;
+  height: 100dvh;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr auto;
+}
+nav {
+  background-color: #a79277;
+}
+
+#headline {
+  margin-left: 15px;
+}
+
+aside {
+  background-color: #dcd5cb;
+  width: 350px;
+  height: 89dvh;
+  right: 0;
+  margin-right: 7px;
+  position: absolute;
+}
+
+#toogle-btn {
+  background-color: #dcd5cb;
+  width: 40px;
+  height: 5dvh;
+  right: 7px;
+  position: absolute;
+}
+
+#foe-btn {
+  background-color: #5c4033;
+}
+#draw-btn {
+  background-color: #a79277;
+}
+
+#close-btn {
+  right: 10px;
+  position: absolute;
+}
+
+.btn-secondary {
+  background-color: #a79277 !important;
+}
+#generated-aside {
+  background-color: white;
+  height: 200px;
+  left: 7px;
+  width: 335px;
+}
