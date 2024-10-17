@@ -14,7 +14,7 @@ const KommuneLayerCheckbox = () => {
   const { map } = useContext(MapContext);
   const [checked, setChecked] = useState(false);
   const [activeFeature, setActiveFeature] = useState<KommuneFeature | null>(
-    null,
+    null
   );
   const [hoveredKommune, setHoveredKommune] = useState<string | null>(null);
   const [filterActive, setFilterActive] = useState(false); // Tilstanden for å spore om filteret er aktivt
@@ -49,7 +49,7 @@ const KommuneLayerCheckbox = () => {
   const KommuneLayer = new VectorLayer({
     className: "kommune",
     source: new VectorSource({
-      url: "/kws2100-exam-elin-lisa-eline/kommuner.json",
+      url: "/KWS2100_Kartbaserte_Websystemer_Eksamen/kommuner.json",
       format: new GeoJSON(),
     }),
     style: kommuneStyle,

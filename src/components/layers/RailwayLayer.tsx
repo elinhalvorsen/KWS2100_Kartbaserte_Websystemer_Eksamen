@@ -6,7 +6,7 @@ import { Circle, Fill, Stroke, Style } from "ol/style";
 export const railwayLayer = new VectorLayer({
   className: "railway",
   source: new VectorSource({
-    url: "/kws2100-exam-elin-lisa-eline/jernbanestasjoner.geojson",
+    url: "/KWS2100_Kartbaserte_Websystemer_Eksamen/jernbanestasjoner.geojson",
     format: new GeoJSON(),
   }),
   style: new Style({
