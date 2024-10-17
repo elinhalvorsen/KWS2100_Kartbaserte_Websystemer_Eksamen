@@ -2,7 +2,7 @@
   Eksamen Kartbaserte Websystemer Våren 2024
 </h1>
 
-https://kristiania-kws2100-2024.github.io/kws2100-exam-elin-lisa-eline/
+https://elinhalvorsen.github.io/KWS2100_Kartbaserte_Websystemer_Eksamen/
 
 ### Deltakernummer : 9, 12 og 21
 
